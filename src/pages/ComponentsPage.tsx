@@ -1,5 +1,6 @@
+import { Button } from '../components/Button';
 import { Icon } from '../components/Icon';
-import './ComponentsPage.css';
+import './ComponentsPage.scss';
 
 export const ComponentsPage = () => {
   return (
@@ -30,6 +31,13 @@ export const ComponentsPage = () => {
           styleWidth={'50px'}
         />
         <div/>
+        <Button 
+          type={'added'}
+          label={'Добавить книгу'}
+          icon={'plus'}
+          iconWidth='13px'
+          onClick={() => console.log('добавлено')}
+        />
       </div>
     </>
   )
