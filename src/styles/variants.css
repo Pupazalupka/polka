@@ -1,0 +1,19 @@
+:root {
+  /* цвета */
+  --bg-default: #f8f3e9;
+  --bg-white: #fffdf8;
+  --bg-menu: #241a12;
+  --btn-bordo: #762f3c;
+  --btn-dark-bordo: #57212c;
+  --btn-ohra: #c59a4a;
+  --btn-green: #54705d;
+  --gray: #786f64;
+
+  /* размер текста */
+  --font-size-heading1: 22px;
+  --font-size-heading2: 16px;
+  --font-size-heading3: 13px;
+  --font-size-body: 11px;
+  --font-size-caption: 9px;
+  --font-size-small: 8px;
+}
