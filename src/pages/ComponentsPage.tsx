@@ -1,5 +1,6 @@
 import { Button } from '../components/Button';
 import { Icon } from '../components/Icon';
+import { Status } from '../components/Status';
 import './ComponentsPage.scss';
 
 export const ComponentsPage = () => {
@@ -37,6 +38,62 @@ export const ComponentsPage = () => {
           icon={'plus'}
           iconWidth='13px'
           onClick={() => console.log('добавлено')}
+        />
+        <div/>
+        <div/>
+        <div/>
+        <div/>
+        <div/>
+        <div/>
+        <Status 
+          type={'abandoned'}
+          size={'s'}
+        />
+        <Status 
+          type={'abandoned'}
+          size={'m'}
+        />
+        <Status 
+          type={'abandoned'}
+          size={'l'}
+        />
+        <div/>
+        <Status 
+          type={'read'}
+          size={'s'}
+        />
+        <Status 
+          type={'read'}
+          size={'m'}
+        />
+        <Status 
+          type={'read'}
+          size={'l'}
+        />
+        <Status 
+          type={'reading-now'}
+          size={'s'}
+        />
+        <Status 
+          type={'reading-now'}
+          size={'m'}
+        />
+        <Status 
+          type={'reading-now'}
+          size={'l'}
+        />
+        <div/>
+        <Status 
+          type={'want-read'}
+          size={'s'}
+        />
+        <Status 
+          type={'want-read'}
+          size={'m'}
+        />
+        <Status 
+          type={'want-read'}
+          size={'l'}
         />
       </div>
     </>

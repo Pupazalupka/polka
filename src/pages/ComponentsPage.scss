@@ -1,8 +1,8 @@
 .component-page {
+  margin: 0;
   background-color: var(--bg-default);
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   padding: 50px;
   gap: 15px;
 }
