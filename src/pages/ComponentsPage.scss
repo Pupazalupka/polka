@@ -4,5 +4,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   padding: 50px;
-  gap: 15px;
+  row-gap: 30px;
+  column-gap: 15px;
+
+  &__notice {
+    grid-column: span 3;
+  }
 }

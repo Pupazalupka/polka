@@ -5,6 +5,7 @@ import BookOhra from '../img/book-ohra.svg?react';
 import Plus from '../img/plus.svg?react';
 import Progress from '../img/progress.svg?react';
 import Save from '../img/save.svg?react';
+import Close from '../img/close.svg?react';
 
 export const Icon = (props: IProps) => {
   const typeIcon = () => {
@@ -21,6 +22,8 @@ export const Icon = (props: IProps) => {
         return <Progress />;
       case 'save':
         return <Save />;
+      case 'close':
+        return <Close />;
       
       default:
         return null;
@@ -31,7 +34,7 @@ export const Icon = (props: IProps) => {
     <>
       <div 
         className={props.classNameIcon}
-        onClick={() => props.onClick}
+        onClick={props.onClick}
         style={{
           fontSize: props.styleWidth,
           height: props.styleWidth,
