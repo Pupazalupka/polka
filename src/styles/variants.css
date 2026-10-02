@@ -10,10 +10,13 @@
   --gray: #786f64;
 
   /* размер текста */
-  --font-size-heading1: 22px;
-  --font-size-heading2: 16px;
-  --font-size-heading3: 13px;
+  --font-size-heading1: 25px;
+  --font-size-heading2: 20px;
+  --font-size-heading3: 15px;
   --font-size-body: 11px;
   --font-size-caption: 9px;
   --font-size-small: 8px;
+
+  /* жирность текста */
+  --font-weight-bold: 700;
 }

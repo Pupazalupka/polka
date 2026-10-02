@@ -34,6 +34,7 @@ export const Icon = (props: IProps) => {
         onClick={() => props.onClick}
         style={{
           fontSize: props.styleWidth,
+          height: props.styleWidth,
         }}
       >
         {typeIcon()}
