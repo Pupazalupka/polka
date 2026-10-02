@@ -33,7 +33,7 @@ export const Button = (props: IProps) => {
         onClick={props.onClick}
       >
         {icon()}
-        {props.label}
+        <span>{props.label}</span>
       </div>
     </>
   )

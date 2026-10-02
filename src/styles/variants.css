@@ -8,14 +8,17 @@
   --btn-ohra: #c59a4a;
   --btn-green: #54705d;
   --gray: #786f64;
+  --abandoned: #9B6961;
 
   /* размер текста */
-  --font-size-heading1: 25px;
-  --font-size-heading2: 20px;
-  --font-size-heading3: 15px;
-  --font-size-body: 11px;
-  --font-size-caption: 9px;
-  --font-size-small: 8px;
+  --font-size-heading1: 30px;
+  --font-size-heading2: 25px;
+  --font-size-heading3: 20px;
+  --font-size-m: 16px;
+  --font-size-l: 18px;
+  --font-size-body: 14px;
+  --font-size-caption: 12px;
+  --font-size-small: 10px;
 
   /* жирность текста */
   --font-weight-bold: 700;

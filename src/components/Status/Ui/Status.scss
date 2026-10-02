@@ -1,0 +1,43 @@
+.status {
+  border: none;
+  border-radius: 20px;
+  color: var(--bg-white);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+
+  &_s {
+    padding: 5px 10px;
+    font-size: var(--font-size-body);
+  }
+
+  &_m {
+    padding: 10px 10px;
+    font-size: var(--font-size-m);
+  }
+
+  &_l {
+    padding: 10px 10px;
+    font-size: var(--font-size-l);
+  }
+
+  &_abandoned {
+    background-color: var(--abandoned);
+  }
+
+  &_reading-now {
+    background-color: var(--btn-green);
+  }
+
+  &_read {
+    background-color: var(--btn-ohra);
+  }
+
+  &_want-read {
+    background-color: var(--btn-bordo);
+  }
+}
