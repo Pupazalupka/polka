@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import type { IProps } from "./IProps";
-import { Icon } from "../Icon";
+import type { IProps } from "../Types/IProps";
+import { Icon } from "../../Icon";
 
 import './Notice.scss';
 
