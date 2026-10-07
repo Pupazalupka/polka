@@ -1,6 +1,7 @@
 import { Button } from '../components/Button';
+import { Filter } from '../components/Filter';
 import { Icon } from '../components/Icon';
-import { Notice } from '../components/Notice/Notice';
+import { Notice } from '../components/Notice/Ui/Notice';
 import { Status } from '../components/Status';
 import './ComponentsPage.scss';
 
@@ -102,13 +103,44 @@ export const ComponentsPage = () => {
             message={'Ошибка'}
           />
         </div>
-        <div/>
+        <div />
         <div className={'component-page__notice'}>
           <Notice
             type={'info'}
             message={'Информация'}
           />
         </div>
+        <div className={'component-page__notice'}>
+          <Notice
+            type={'succes'}
+            message={'Успешно'}
+          />
+        </div>
+        <div/>
+        <div className={'component-page__notice'}>
+          <Notice
+            type={'warning'}
+            message={'Предупреждение'}
+          />
+        </div>
+        <Filter
+          size={'s'}
+          label={'Хоррор'}
+        />
+        <Filter
+          size={'m'}
+          label={'Хоррор'}
+        />
+        <Filter 
+          size={'l'}
+          label={'Хоррор'}
+        />
+        <div/>
+        <Filter 
+          size={'l'}
+          label={'Фантастика'}
+          disabled
+        />
       </div>
     </>
   )

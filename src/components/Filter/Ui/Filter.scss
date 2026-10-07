@@ -1,0 +1,39 @@
+.filter {
+  border-radius: 20px;
+  background-color: var(--bg-white);
+  border: solid 1px var(--border-notice);
+  color: var(--txt-filter);
+  cursor: pointer;
+  transition: border ease-in-out 0.2s;
+  transition: background-color ease-in-out 0.2s;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+
+  &_selected {
+    background-color: var(--btn-bordo);
+    border: solid 1px var(--btn-bordo);
+    color: var(--bg-white);
+  }
+
+  &_disabled {
+    background-color: var(--btn-bordo);
+    border: solid 1px var(--btn-bordo);
+    color: var(--bg-white);
+    cursor: default;
+  }
+
+  &_s {
+    font-size: var(--font-size-body);
+  }
+
+  &_m {
+    font-size: var(--font-size-m);
+  }
+
+  &_l {
+    font-size: var(--font-size-l);
+  }
+}
