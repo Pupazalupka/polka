@@ -1,0 +1,28 @@
+:root {
+  /* цвета */
+  --bg-default: #f8f3e9;
+  --bg-white: #fffdf8;
+  --bg-menu: #241a12;
+  --btn-bordo: #762f3c;
+  --btn-dark-bordo: #57212c;
+  --btn-ohra: #c59a4a;
+  --btn-green: #54705d;
+  --gray: #786f64;
+  --abandoned: #9B6961;
+  --border-notice: #DED3C3;
+  --blue: #55778A;
+  --txt-filter: #292016;
+
+  /* размер текста */
+  --font-size-heading1: 30px;
+  --font-size-heading2: 25px;
+  --font-size-heading3: 20px;
+  --font-size-m: 16px;
+  --font-size-l: 18px;
+  --font-size-body: 14px;
+  --font-size-caption: 12px;
+  --font-size-small: 10px;
+
+  /* жирность текста */
+  --font-weight-bold: 700;
+}
