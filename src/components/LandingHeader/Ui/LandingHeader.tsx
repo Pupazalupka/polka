@@ -1,5 +1,7 @@
 import { Link } from "react-router";
-import { Icon } from "../Icon";
+import { Icon } from "../../Icon";
+import './LandingHeader.scss';
+import { Button } from "../../Button";
 
 export const LandingHeader = () => {
 
@@ -17,6 +19,12 @@ export const LandingHeader = () => {
           <Link to={'/library'}>Библиотека</Link>
           <Link to={'/quote-library'}>Цитатник</Link>
           <Link to={'/reading-statistics'}>Статистика</Link>
+          <Button 
+            type={'added'}
+            onClick={() => {}}
+            label={'Добавить книгу'}
+            icon={'plus'}
+          />
         </div>
       </div>
     </>

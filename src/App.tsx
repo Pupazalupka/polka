@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { ComponentsPage } from './pages/ComponentsPage';
+import { ComponentsPage } from './pages/ComponentPage/ComponentsPage';
 import { ProtectedRoute } from './components/ProtectedRoute/ProtectedRoute';
 import { LibraryPage } from './pages/LibraryPage/LibraryPage';
 import { LoginPage } from './pages/LoginPage/LoginPage';

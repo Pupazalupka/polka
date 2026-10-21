@@ -2,12 +2,20 @@
   margin: 0;
   background-color: var(--bg-default);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(7, 1fr);
   padding: 50px;
   row-gap: 30px;
   column-gap: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  min-width: 0;
+  
 
   &__notice {
     grid-column: span 3;
+  }
+
+  &__header {
+    grid-column: span 6;
   }
 }
