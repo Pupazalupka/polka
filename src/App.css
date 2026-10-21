@@ -3,6 +3,7 @@
   padding: 0;
   background-color: var(--bg-default);
   user-select: none;
+  width: 1920px;
 
   h3 {
     margin: 0;

@@ -1,8 +1,4 @@
-import { Button } from '../components/Button';
-import { Filter } from '../components/Filter';
-import { Icon } from '../components/Icon';
-import { Notice } from '../components/Notice/Ui/Notice';
-import { Status } from '../components/Status';
+import { Button, Filter, Icon, LandingHeader, Notice, Status } from '../../components';
 import './ComponentsPage.scss';
 
 export const ComponentsPage = () => {
@@ -141,6 +137,11 @@ export const ComponentsPage = () => {
           label={'Фантастика'}
           disabled
         />
+        <div/>
+        <div/>
+        <div className={'component-page__header'}>
+          <LandingHeader />
+        </div>
       </div>
     </>
   )
