@@ -12,6 +12,10 @@ export const Button = (props: IProps) => {
       className += ` ${className}_added`;
     } 
 
+    if (props.type === 'default') {
+      className += ` ${className}_default`;
+    }
+
     return className;
   }, [props.classNameButton]);
 
@@ -31,6 +35,7 @@ export const Button = (props: IProps) => {
       <div 
         className={classNameButton}
         onClick={props.onClick}
+        style={{width: props.width}}
       >
         {icon()}
         <span>{props.label}</span>

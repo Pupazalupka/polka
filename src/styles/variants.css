@@ -12,8 +12,11 @@
   --border-notice: #DED3C3;
   --blue: #55778A;
   --txt-filter: #292016;
+  --cream: #F5EFE5;
+  --dark-cream: #EEE7DA;
 
   /* размер текста */
+  --title: 60px;
   --font-size-heading1: 30px;
   --font-size-heading2: 25px;
   --font-size-heading3: 20px;
@@ -22,6 +25,7 @@
   --font-size-body: 14px;
   --font-size-caption: 12px;
   --font-size-small: 10px;
+  --font-size-xs: 8px;
 
   /* жирность текста */
   --font-weight-bold: 700;

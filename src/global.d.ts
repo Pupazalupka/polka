@@ -33,3 +33,23 @@ declare module '*.webp' {
   const content: string;
   export default content;
 }
+
+declare module 'react-awesome-stars-rating' {
+  import { Component } from 'react';
+
+  interface ReactStarsRatingProps {
+    value?: number;
+    onChange?: (value: number) => void;
+    isEdit?: boolean;
+    isHalf?: boolean;
+    count?: number;
+    size?: number;
+    starGap?: number;
+    className?: string;
+    primaryColor?: string;
+    secondaryColor?: string;
+    isArrowSubmit?: boolean;
+  }
+
+  export default class ReactStarsRating extends Component<ReactStarsRatingProps> {}
+}

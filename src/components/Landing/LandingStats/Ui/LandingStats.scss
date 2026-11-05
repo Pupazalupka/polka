@@ -1,0 +1,23 @@
+.landing-stats {
+  padding: 37px 100px;
+  display: flex;
+  justify-content: space-around;
+  gap: 260px;
+
+  &__item {
+    width: 165px;
+    text-align: center;
+  }
+
+  &__item-number {
+    font-size: var(--font-size-heading2);
+    font-weight: var(--font-weight-bold);
+    color: var(--btn-bordo);
+    margin-bottom: 10px;
+  }
+
+  &__item-label {
+    font-size: var(--font-size-caption);
+    color: var(--gray);
+  }
+}

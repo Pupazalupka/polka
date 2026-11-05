@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getMe } from '../Api/Auth/Auth';
+import { getMe } from '../Api';
 import type { AuthState } from '../Types';
 
 export function useAuth(): AuthState {
