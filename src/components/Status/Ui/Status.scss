@@ -10,6 +10,11 @@
   align-items: center;
   height: 15px;
 
+  &_xs {
+    padding: 2px 5px;
+    font-size: var(--font-size-xs);
+  }
+
   &_s {
     padding: 5px 10px;
     font-size: var(--font-size-body);

@@ -2,6 +2,7 @@ import { Button, Filter, Icon, LandingHeader, Notice, Status } from '../../compo
 import './ComponentsPage.scss';
 
 export const ComponentsPage = () => {
+
   return (
     <>
       <div className={'component-page'}>
@@ -112,7 +113,7 @@ export const ComponentsPage = () => {
             message={'Успешно'}
           />
         </div>
-        <div/>
+        <div />
         <div className={'component-page__notice'}>
           <Notice
             type={'warning'}
@@ -127,20 +128,23 @@ export const ComponentsPage = () => {
           size={'m'}
           label={'Хоррор'}
         />
-        <Filter 
+        <Filter
           size={'l'}
           label={'Хоррор'}
         />
-        <div/>
-        <Filter 
+        <div />
+        <Filter
           size={'l'}
           label={'Фантастика'}
           disabled
         />
-        <div/>
-        <div/>
+        <div />
+        <div />
         <div className={'component-page__header'}>
           <LandingHeader />
+        </div>
+        <div className={'component-page__card'}>
+          
         </div>
       </div>
     </>

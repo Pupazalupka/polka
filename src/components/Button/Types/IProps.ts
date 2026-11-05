@@ -5,4 +5,5 @@ export interface IProps {
   icon?: 'polka-bordo' | 'progress' | 'save' | 'added' | 'book-ohra' | 'plus',
   type: 'default' | 'added';
   iconWidth?: string;
+  width?: string;
 }

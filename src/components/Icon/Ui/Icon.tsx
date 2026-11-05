@@ -6,6 +6,7 @@ import Plus from '../img/plus.svg?react';
 import Progress from '../img/progress.svg?react';
 import Save from '../img/save.svg?react';
 import Close from '../img/close.svg?react';
+import Background from '../img/fon.svg?react';
 
 export const Icon = (props: IProps) => {
   const typeIcon = () => {
@@ -24,6 +25,8 @@ export const Icon = (props: IProps) => {
         return <Save />;
       case 'close':
         return <Close />;
+      case 'background':
+        return <Background />;
       
       default:
         return null;

@@ -11,12 +11,14 @@ export const Status = (props: IProps) => {
 
   const size = useMemo(() => {
     switch(props.size) {
+      case 'xs':
+        return '70px';
       case 's':
-        return '105px';
+        return '115px';
       case 'm':
-        return '125px';
+        return '135px';
       case 'l': 
-        return '150px';
+        return '160px';
     }
   }, [props.size]);
 

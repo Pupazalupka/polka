@@ -25,7 +25,7 @@ export async function login(
   localStorage.setItem('user', JSON.stringify(user));
 
   return { token, user };
-}
+};
 
 export async function getMe(): Promise<User> {
   const token = localStorage.getItem('token');
@@ -42,4 +42,4 @@ export async function getMe(): Promise<User> {
   const { password: _pw, ...user } = found;
 
   return user;
-}
+};

@@ -1,5 +1,5 @@
 export interface IProps {
-  type: 'polka-bordo' | 'progress' | 'save' | 'added' | 'book-ohra' | 'plus' | 'close',
+  type: 'polka-bordo' | 'progress' | 'save' | 'added' | 'book-ohra' | 'plus' | 'close' | 'background',
   styleWidth?: string,
   classNameIcon?: string,
   onClick?: () => void,

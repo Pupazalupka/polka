@@ -1,9 +1,10 @@
-import { Link } from "react-router";
-import { Icon } from "../../Icon";
+import { Link, useNavigate } from "react-router";
+import { Icon } from "../../../Icon";
 import './LandingHeader.scss';
-import { Button } from "../../Button";
+import { Button } from "../../../Button";
 
 export const LandingHeader = () => {
+  const navigationLinks = useNavigate();
 
   return (
     <>
@@ -21,9 +22,11 @@ export const LandingHeader = () => {
           <Link to={'/reading-statistics'}>Статистика</Link>
           <Button 
             type={'added'}
-            onClick={() => {}}
+            onClick={() => {navigationLinks('/all-books')}}
             label={'Добавить книгу'}
             icon={'plus'}
+            width={'140px'}
+            iconWidth={'13px'}
           />
         </div>
       </div>

@@ -12,5 +12,50 @@
       "email": "maria@example.com",
       "password": "qwerty"
     }
+  ],
+
+  "stats":{
+    "readerCount": 1000,
+    "saveQuotesCount": 5000,
+    "returnRate": 75
+  },
+
+  "books": [
+    {
+      "id": "1",
+      "title": "Война и мир",
+      "author": "Лев Толстой",
+      "year": 1869,
+      "genre": "Роман",
+      "image": "/img/VoinaAndMir.jpg",
+      "progress": 0
+    },
+    {
+      "id": "2",
+      "title": "Преступление и наказание",
+      "author": "Фёдор Достоевский",
+      "year": 1866,
+      "genre": "Роман",
+      "image": "/img/Prestuplenie.jpg",
+      "progress": 50
+    },
+    {
+      "id": "3",
+      "title": "Мастер и Маргарита",
+      "author": "Михаил Булгаков",
+      "year": 1967,
+      "genre": "Роман",
+      "image": "/img/MasterAndMargarita.jpg",
+      "progress": 75
+    },
+    {
+      "id": "4",
+      "title": "1984",
+      "author": "Джордж Оруэлл",
+      "year": 1948,
+      "genre": "Антиутопия",
+      "image": "/img/1984.jpg",
+      "progress": 43
+    }
   ]
 }
