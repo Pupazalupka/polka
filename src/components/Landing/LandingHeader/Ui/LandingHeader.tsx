@@ -25,7 +25,7 @@ export const LandingHeader = () => {
             onClick={() => {navigationLinks('/all-books')}}
             label={'Добавить книгу'}
             icon={'plus'}
-            width={'140px'}
+            width={'220px'}
             iconWidth={'13px'}
           />
         </div>

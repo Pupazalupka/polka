@@ -36,8 +36,8 @@ export const LandingPage = () => {
               <Button
                 type={'added'}
                 label={'Начать собирать полку'}
-                onClick={() => { }}
-                width={'170px'}
+                onClick={() => { navigate('/all-books') }}
+                width={'240px'}
               />
             </div>
           </div>
@@ -95,7 +95,7 @@ export const LandingPage = () => {
               type={'added'}
               label={'Создать свою библиотеку'}
               onClick={() => { navigate('/all-books') }}
-              width={'190px'}
+              width={'260px'}
             />
           </div>
         </div>

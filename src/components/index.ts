@@ -5,3 +5,5 @@ export {LandingHeader} from './Landing/LandingHeader';
 export {Notice} from './Notice';
 export {ProtectedRoute} from './ProtectedRoute/ProtectedRoute';
 export {Status} from './Status';
+export {LibraryLayout} from './LibraryLayout';
+export {LibrarySidebar} from './LibrarySidebar';
