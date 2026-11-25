@@ -4,4 +4,5 @@ export interface IProps {
   onClick?: () => void,
   size: 's' | 'm' | 'l',
   disabled?: boolean,
+  selected?: boolean,
 };

@@ -1,0 +1,9 @@
+.library-page-header--library { align-items: center; }
+.library-page-header--library > .button { flex: none; }
+.library-section--table { margin-top: 39px; }
+.library-section--table .library-section__heading { margin-bottom: 6px; }
+@media (max-width: 640px) {
+  .library-page-header--library { align-items: flex-start; }
+  .library-page-header--library > .button { display: none; }
+  .library-section--table { margin-top: 28px; }
+}

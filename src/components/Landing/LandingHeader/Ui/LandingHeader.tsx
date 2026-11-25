@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router-dom";
 import { Icon } from "../../../Icon";
 import './LandingHeader.scss';
 import { Button } from "../../../Button";

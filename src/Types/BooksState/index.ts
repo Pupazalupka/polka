@@ -1,1 +1,1 @@
-export type { BooksState } from './BooksState';
+export type { BooksState, ReadingStatus } from './BooksState';

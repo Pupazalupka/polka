@@ -1,5 +1,7 @@
 .filter {
   border-radius: 20px;
+  font: inherit;
+  line-height: 1.15;
   background-color: var(--bg-white);
   border: solid 1px var(--border-notice);
   color: var(--txt-filter);

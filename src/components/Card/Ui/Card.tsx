@@ -19,7 +19,17 @@ export const Card = (props: IProps) => {
   return (
     <div className={'card'}>
       <div className={'card__image'}>
-        <img src={props.book.image} alt={props.book.title} />
+          <img
+            src={props.book.image}
+            alt={props.book.title}
+            onError={(event) => {
+              const image = event.currentTarget;
+              if (props.fallbackImage && !image.dataset.fallbackApplied) {
+                image.dataset.fallbackApplied = 'true';
+                image.src = props.fallbackImage;
+              }
+            }}
+          />
       </div>
       <div className={'card__info'}>
         <h3 className={'card__title'}>{props.book.title}</h3>
